@@ -35,7 +35,7 @@ private fun <O> getVisibleObjects(objects:Map <Int,O>, presents:Map<Int,Boolean>
         }
         absentObj
     }
-    VisibilityFilter.SHOW_PRESENT ->  {
+    VisibilityFilter.SHOW_PRESENCE ->  {
         val presentObj = objects.toMutableMap()
         presentObj.clear()
         if (presents != null) {

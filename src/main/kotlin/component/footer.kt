@@ -14,8 +14,8 @@ fun RBuilder.footer() =
             +"All"
         }
         filterLink {
-            attrs.filter = VisibilityFilter.SHOW_PRESENT
-            +"Present"
+            attrs.filter = VisibilityFilter.SHOW_PRESENCE
+            +"Presence"
         }
         filterLink {
             attrs.filter = VisibilityFilter.SHOW_ABSENCE
